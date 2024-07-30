@@ -4,7 +4,7 @@ function startServer() {
   http
     .createServer(function (req, res) {
       res.writeHead(200, { "Content-Type": "text/html" });
-      var htmlContent = ""; // HTML content removed
+      var htmlContent = "";
 
       res.write(htmlContent);
       res.end();
